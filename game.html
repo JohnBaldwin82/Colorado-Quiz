@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,8 @@
     <title>Quiz Page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="game.css">
-    <link rel="stylesheet" href="script.js">
 </head>
+
 <body>
     <div class="container">
         <div id="game" class="justify-center flex-column">
@@ -17,9 +18,14 @@
                     <p id="progressText" class="hud-prefix">
                         Question
                     </p>
-                    <div id="progressBar">
-                        <div id="progressBarFull"></div>
+                    <div>
+                        <h1 id="progressBarText"></h1>
+                        <div id="progressBar">
+
+                            <div id="progressBarFull"></div>
+                        </div>
                     </div>
+
                 </div>
                 <div class="hud-item">
                     <p class="hud-prefix">
@@ -30,7 +36,8 @@
                     </h1>
                 </div>
             </div>
-            <div id="question">What is the answer to the Question?</div>
+            <h1 id="Timer">45</h1>
+            <h1 id="question">What is the answer to the Question?</h1>
             <div class="choice-container">
                 <p class="choice-prefix">A</p>
                 <p class="choice-text" data-number="1"> Choice</p>
@@ -51,4 +58,5 @@
     </div>
     <script src="/script.js"></script>
 </body>
+
 </html>

@@ -1,6 +1,6 @@
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
-const progressText = document.querySelector('#progressText');
+const progressText = document.querySelector('#progressBarText');
 const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
 
@@ -10,6 +10,21 @@ let score = 0
 let questionCounter = 0
 let availableQuestions = []
 
+var timeLeft = 45;
+var elem = document.getElementById('Timer')
+
+var timerId = setInterval(countdown, 1000);
+
+function countdown() {
+    if(timeLeft ==0) {
+        clearTimeout(TimerId);
+        doSomething();
+    } else {
+        elem.innerHTML = timeLeft + ' seconds remaining';
+        timeLeft--;
+    }
+}
+ 
 let questions = [
     {
         question: "What is the oldest restaurant in Colorado?",
@@ -62,15 +77,19 @@ getNewQuestion = () => {
         return window.location.assign('/end.html')
     }
     questionCounter++
-    progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
-    progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100} %`
+    progressText.textContent = `Question ${questionCounter} of ${MAX_QUESTIONS}`
+    
+    let test =  `${(questionCounter/MAX_QUESTIONS) * 100}%`
+    console.log(test)
+    //progressBarFull.style.width = test;
+    progressBarFull.setAttribute("style",`width: ${test}`)
 
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
     currentQuestion = availableQuestions[questionsIndex]
     question.innerText = currentQuestion.question
 
     choices.forEach(choice => {
-        const number = choice.dataset['number']
+        const number = choice.dataset.number
         choice.innerText = currentQuestion['choice' + number]
     })
 
@@ -85,7 +104,7 @@ choices.forEach(choice => {
 
         acceptingAnswers = false
         const selectedChoice = e.target
-        const selectedAnswer = selectedChoice.dataSet['number']
+        const selectedAnswer = selectedChoice.getAttribute('data-number')
 
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
         
