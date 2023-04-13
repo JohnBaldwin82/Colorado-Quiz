@@ -112,11 +112,16 @@ input::placeholder{
     color: #aaa;
 }
 
+#nameScore {
+    font-size: 30px;
+}
+
 #username {
     margin-bottom: 3rem;
     width: 100%;
     outline: none;
 }
+
 
 #end.text {
     font-size: 2.4rem;

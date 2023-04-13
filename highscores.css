@@ -6,6 +6,7 @@ body {
 #highScores {
     list-style: none;
     margin-bottom: 4rem;
+    font-size: 100px;
 }
 
 .highScores {
