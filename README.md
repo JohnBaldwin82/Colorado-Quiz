@@ -11,7 +11,8 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
 
-
+Colorado themed quiz. Take a tour of Colorado history with this quiz. Answer correctly and 100 points will be added to your score. Answer incorrectly and 10 
+seconds will be taken off your time. At the end enter in your initials to see all the highschores.
 
 
 
