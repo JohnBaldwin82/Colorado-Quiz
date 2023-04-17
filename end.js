@@ -5,7 +5,7 @@ const mostRecentScore = JSON.parse(localStorage.getItem('mostRecentScore'))
 const nameScore = document.querySelector('#nameScore')
 const highScores = JSON.parse(localStorage.getItem('highScores')) || []
 
-// const MAX_HIGH_SCORES = 5
+// most Recent Score
 console.log('here is score ', mostRecentScore)
 finalScore.innerHTML = mostRecentScore
 
@@ -23,7 +23,7 @@ function captureScore() {
     displayScore()
  
 }
-
+// Displays HighScore list
 function displayScore() {
     var highScoresArray = JSON.parse(localStorage.getItem('highScores'))
     for (let index = 0; index < highScoresArray.length; index++) {

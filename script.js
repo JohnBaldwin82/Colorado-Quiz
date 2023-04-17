@@ -107,7 +107,7 @@ choices.forEach(choice => {
         const selectedAnswer = selectedChoice.getAttribute('data-number')
 
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
-        
+        // removes 10 seconds for wrong answer
         if(classToApply === 'correct') {
             incrementScore(SCORE_POINTS)
         } else {
