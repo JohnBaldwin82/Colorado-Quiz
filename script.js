@@ -111,6 +111,7 @@ choices.forEach(choice => {
         if(classToApply === 'correct') {
             incrementScore(SCORE_POINTS)
         } else {
+            
             timeLeft = timeLeft - 10
         }
 
