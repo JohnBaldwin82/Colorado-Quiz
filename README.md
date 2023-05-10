@@ -1,24 +1,46 @@
 # Colorado-Quiz
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score
 
-Colorado themed quiz. Take a tour of Colorado history with this quiz. Answer correctly and 100 points will be added to your score. Answer incorrectly and 10 
-seconds will be taken off your time. At the end enter in your initials to see all the highschores.
+![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+## Table of Contents
+
+- [Description](#description)
+- [Task](#task)
+- [Video](#video)
+- [Screenshots](#screenshots)
+- [Questions](#questions)
+* [Links](#links)
+
+## Description
+
+A Colorado facts based quiz with Highscore list.
+
+## Task
+
+Create a quiz that asks questions. For right answers you are awarded
+points and for wrong answers time is taken off the clock.At the end
+of the test enter in your initials and add your score to the highscore
+list. Then return to the home screen to play again.
+
+## Video
 
 
 
+## Screenshot
+
+
+
+## Questions
+
+Questions or comments please contact me at
+
+johnbaldwin82@gmail.com
+
+
+## Links
 
 https://github.com/JohnBaldwin82/Colorado-Quiz.git
 
 https://johnbaldwin82.github.io/Colorado-Quiz/
 
-![Colorado Quiz](https://user-images.githubusercontent.com/124854286/232615504-30c3b238-c208-4604-b166-0c6efcb49709.png)
+
