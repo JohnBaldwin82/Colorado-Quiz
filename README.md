@@ -30,7 +30,7 @@ list. Then return to the home screen to play again.
 ## Screenshot
 ![quiz 1](https://github.com/JohnBaldwin82/Colorado-Quiz/assets/124854286/1468fd31-6feb-46d4-97d7-5f00ed4ff414)
 ![quiz 2](https://github.com/JohnBaldwin82/Colorado-Quiz/assets/124854286/30bd0437-5f7d-4ad4-83a3-3c3f51ea7341)
-![quiz 3](https://github.com/JohnBaldwin82/Colorado-Quiz/assets/124854286/9195abda-362a-4bfe-8c5e-22790facb689)
+![quiz 3](https://github.com/JohnBaldwin82/Colorado-Quiz/assets/124854286/37b3b3ed-a699-4ff0-a4cc-63b3afe19ff2)
 ![quiz 4](https://github.com/JohnBaldwin82/Colorado-Quiz/assets/124854286/a3f931ed-189a-44ab-9e46-6d34429fcbdb)
 ![quiz 5](https://github.com/JohnBaldwin82/Colorado-Quiz/assets/124854286/a67a4fc6-65a3-4987-b19d-da4a639de1a7)
 ![quiz 6](https://github.com/JohnBaldwin82/Colorado-Quiz/assets/124854286/70de6853-6521-4794-8952-c0fd9033b0a0)
