@@ -74,7 +74,7 @@ getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign('/end.html')
+        return window.location.assign('./end.html')
     }
     questionCounter++
     progressText.textContent = `Question ${questionCounter} of ${MAX_QUESTIONS}`
@@ -111,7 +111,7 @@ choices.forEach(choice => {
         if(classToApply === 'correct') {
             incrementScore(SCORE_POINTS)
         } else {
-            
+
             timeLeft = timeLeft - 10
         }
 
